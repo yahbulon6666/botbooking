@@ -1,0 +1,16 @@
+name = "botbooking"
+main = "src/index.js"
+compatibility_date = "2026-11-27"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "botbooking"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[vars]
+BUSINESS_NAME = "Моя запись"
+TIMEZONE = "Europe/Prague"
+OWNER_ID = "REPLACE_WITH_TELEGRAM_OWNER_ID"
+OPEN_TIME = "09:00"
+CLOSE_TIME = "19:00"
+SLOT_STEP_MINUTES = "30"
